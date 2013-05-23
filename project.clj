@@ -1,4 +1,4 @@
-(defproject midje-progress-emitter "0.1.0"
+(defproject midje-progress-emitter "0.1.1-SNAPSHOT"
   :description "A Midje emitter that prints a progress bar while facts are checked."
   :url "https://github.com/dcuddeback/midje-progress-emitter"
   :license {:name "MIT License"
