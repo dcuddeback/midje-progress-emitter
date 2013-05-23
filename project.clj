@@ -4,4 +4,8 @@
   :license {:name "MIT License"
             :url "http://opensource.org/licenses/MIT"}
   :dependencies [[org.clojure/clojure "1.5.1"]]
+
+  :deploy-repositories [["releases" {:url "https://clojars.org/repo" :username :gpg :password :gpg}]
+                        ["snapshots" {:url "https://clojars.org/repo" :username :gpg :password :gpg}]]
+
   :profiles {:provided {:dependencies [[midje "1.5.1"]]}})
